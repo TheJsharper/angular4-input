@@ -1,25 +1,25 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-import { AppComponent } from './app.component';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {FormsModule} from '@angular/forms';
+import {HttpModule} from '@angular/http';
+import {AppComponent} from './app.component';
 
 import 'rxjs/add/operator/map';
-import { AuFaInputComponent } from './lib/au-fa-input/au-fa-input.component';
-import { InputRefDirective } from './lib/common/input-ref.directive';
+import {AuFaInputComponent} from './lib/au-fa-input/au-fa-input.component';
+import {InputRefDirective} from './lib/common/input-ref.directive';
+import {AuInputModule} from "./lib/au-input.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AuFaInputComponent,
-    InputRefDirective
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule, AuInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
