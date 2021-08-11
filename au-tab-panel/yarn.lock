@@ -372,22 +372,6 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
-au-tab-panel@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/au-tab-panel/-/au-tab-panel-0.1.1.tgz#2bf14e07e85778125add03687280f4b7d55f4271"
-  dependencies:
-    "@angular/common" "^4.0.0"
-    "@angular/compiler" "^4.0.0"
-    "@angular/core" "^4.0.0"
-    "@angular/forms" "^4.0.0"
-    "@angular/http" "^4.0.0"
-    "@angular/platform-browser" "^4.0.0"
-    "@angular/platform-browser-dynamic" "^4.0.0"
-    "@angular/router" "^4.0.0"
-    core-js "^2.4.1"
-    rxjs "^5.1.0"
-    zone.js "^0.8.4"
-
 autoprefixer@^6.3.1, autoprefixer@^6.5.3:
   version "6.7.7"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.7.7.tgz#1dbd1c835658e35ce3f9984099db00585c782014"
@@ -3399,8 +3383,8 @@ path-key@^1.0.0:
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-1.0.0.tgz#5d53d578019646c0d68800db4e146e6bdc2ac7af"
 
 path-parse@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.5.tgz#3c1adf871ea9cd6c9431b6ea2bd74a0ff055c4c1"
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
 
 path-to-regexp@0.1.7:
   version "0.1.7"
